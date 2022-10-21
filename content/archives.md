@@ -1,6 +1,6 @@
----
-title: "Archives"
+<!-- ---
+title: "Days"
 layout: "archives"
-url: "/archives/"
+url: "/days/"
 summary: archives
----
+--- -->
