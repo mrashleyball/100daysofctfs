@@ -32,10 +32,11 @@ languages:
                 #   weight: 5
                 - name: Search
                   url: search/
+                  # post: <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                   weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
+                # - name: Tags
+                #   url: tags/
+                #   weight: 10
                 # - name: WiKi
                 #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
                 # - name: Discord
@@ -119,7 +120,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    # ShowToc: true
     # comments: false
     images: ["papermod-cover.png"]
 
@@ -142,13 +143,13 @@ params:
             The best way to learn Cyber Security is by doing, but where to start? 
             - With so many good resources online nowadays, here's your next 100 days to master cyber.
 
-    # socialIcons:
-    #     - name: github
-    #       url: "https://github.com/adityatelange/hugo-PaperMod"
-    #     - name: KoFi
-    #       url: "https://ko-fi.com/adityatelange"
-    #     - name: Rss
-    #       url: "index.xml"
+    socialIcons:
+        - name: github
+          url: "https://github.com/mrashleyball/100daysofctfs"
+        # - name: KoFi
+        #   url: "https://ko-fi.com/adityatelange"
+        - name: Rss
+          url: "index.xml"
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
