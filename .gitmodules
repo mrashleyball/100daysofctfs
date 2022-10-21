@@ -1,5 +1,4 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/mrashleyball/100daysofctfs.com.git
-	branch = main
-	theme = themes/PaperMod
+# [submodule "public"]
+# 	path = public
+# 	url = https://github.com/mrashleyball/100daysofctfs.com.git
+# 	branch = main
