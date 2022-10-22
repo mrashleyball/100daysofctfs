@@ -3,6 +3,6 @@
 # 	url = https://github.com/mrashleyball/100daysofctfs.com.git
 # 	branch = main
 
-[submodule "PaperMod"] 
-  path = themes/PaperMod
-  url = https://github.com/adityatelange/hugo-PaperMod.git
+# [submodule "PaperMod"] 
+#   path = themes/PaperMod
+#   url = https://github.com/adityatelange/hugo-PaperMod.git
