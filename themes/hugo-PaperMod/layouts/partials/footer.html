@@ -4,12 +4,16 @@
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
+    {{- end }} 
+    |
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/mrashleyball/100daysofctfs" rel="noopener" target="_blank">GitHub</a>
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>,
+        <a href="https://github.com/mrashleyball/100daysofctfs" rel="noopener" target="_blank">GitHub</a> &
+        <a href="https://netlify.com" rel="noopener" target="_blank">Netlify</a>
     </span>
+    | 
+    <span>Made with ❤ by <a href="https://mrash.co" target="_blank">Mr Ash</a></span>
 </footer>
 {{- end }}
 
