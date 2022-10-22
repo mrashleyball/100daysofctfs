@@ -1,5 +1,5 @@
 ---
-title: "Day {{ replace .Name "-" " " | title }} - "
+title: "Day {{ replace .Name "-" " " | title }}: "
 url: /{{ .Name }}/
 tags:
   - Ubuntu
