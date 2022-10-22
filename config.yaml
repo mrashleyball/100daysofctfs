@@ -2,7 +2,7 @@ baseURL: "https://100daysofctfs.com/" # if your site is in 'https', then make su
 title: 100 Days Of CTFs
 languageCode: en-us
 paginate: 10
-theme: PaperMod
+theme: hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
