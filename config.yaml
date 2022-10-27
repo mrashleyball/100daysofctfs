@@ -1,7 +1,7 @@
 baseURL: "https://100daysofctfs.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: 100 Days Of CTFs
 languageCode: en-us
-paginate: 10
+paginate: 5
 theme: hugo-PaperMod
 
 enableInlineShortcodes: true
@@ -27,13 +27,16 @@ languages:
           series: series
         menu:
             main:
-                # - name: Days
-                #   url: archives
-                #   weight: 5
-                - name: Search
+                - name: 👋 About
+                  url: about/
+                  weight: 2
+                - name: 🔎 Search
                   url: search/
                   # post: <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                  weight: 10
+                  weight: 3
+                - name: 🚩 Start Here
+                  url: day/0
+                  weight: 1
                 # - name: Tags
                 #   url: tags/
                 #   weight: 10
