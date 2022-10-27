@@ -141,11 +141,11 @@ params:
     #           url: tags
 
     homeInfoParams:
-        Title: "Stay Accountable, Learn CyberSec"
+        Title: "Stay Accountable & Learn CybeSec"
         Content: >
             Hello world, this is 100daysofctfs.com, a simple guide to CTFs, CyberSec and beyond. 
             The best way to learn CyberSec is by doing, but where to start? With so many good resources online nowadays, 100daysofctfs.com puts them in order. 
-            Here's your next 100 days to master CyberSec and byond, enjoy.
+            Here are your next 100 days to master CyberSec and beyond, enjoy.
 
     socialIcons:
         # - name: github
