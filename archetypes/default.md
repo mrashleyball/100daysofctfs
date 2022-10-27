@@ -1,5 +1,6 @@
 ---
 title: "Day {{ replace .Name "-" " " | title }}: "
+weight: {{ .Name }} 
 url: /{{ .Name }}/
 tags:
   - Ubuntu

@@ -117,7 +117,7 @@ params:
     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    # ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     # ShowToc: true
@@ -140,16 +140,17 @@ params:
     homeInfoParams:
         Title: "Stay Accountable, Learn CyberSec"
         Content: >
-            The best way to learn Cyber Security is by doing, but where to start? 
-            - With so many good resources online nowadays, here's your next 100 days to master cyber.
+            Hello world, this is 100daysofctfs.com, a simple guide to CTFs, CyberSec and beyond. 
+            The best way to learn CyberSec is by doing, but where to start? With so many good resources online nowadays, 100daysofctfs.com puts them in order. 
+            Here's your next 100 days to master CyberSec and byond, enjoy.
 
     socialIcons:
-        - name: github
-          url: "https://github.com/mrashleyball/100daysofctfs"
+        # - name: github
+        #   url: "https://github.com/mrashleyball/100daysofctfs"
         # - name: KoFi
         #   url: "https://ko-fi.com/adityatelange"
-        - name: Rss
-          url: "index.xml"
+        # - name: Rss
+        #   url: "index.xml"
 
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
